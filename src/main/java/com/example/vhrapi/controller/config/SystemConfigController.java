@@ -1,4 +1,4 @@
-package com.example.vhrapi.controller;
+package com.example.vhrapi.controller.config;
 
 import com.example.vhrapi.model.Menu;
 import com.example.vhrapi.service.MenuService;

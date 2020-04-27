@@ -1,5 +1,7 @@
 package generator;
 
+import com.example.vhrapi.model.Menu;
+
 public interface MenuMapper {
     int deleteByPrimaryKey(Integer id);
 

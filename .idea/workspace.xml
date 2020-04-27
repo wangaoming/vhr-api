@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aab3788d-5caf-43c1-a9a1-78999dc286be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/system/basic/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/system/basic/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/swagger/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/VhrApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/VhrApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/SystemConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/config/SystemConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generator/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generator/MenuMapper.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - vhr@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - vhr@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - vhr@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vhr: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - vhr@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vhr: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - vhr@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\maven_jar" />
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aqyWYca1VXdLD9KnpqSphHt58k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JavaMethodFindUsagesOptions.isSearchForTextOccurrences" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\model" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\mapper" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\resources\com\example\vhrapi\mapper" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\service" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.vhrapi.controller" />
+      <recent name="com.example.vhrapi.service" />
+      <recent name="com.example.vhrapi.model" />
+      <recent name="com.example.vhrapi.mapper" />
+      <recent name="com.example.vhrapi.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\resources\com\example\vhrapi\mapper" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\resources" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="vhr-api" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager">
+    <configuration name="VhrApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vhr-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.vhrapi.VhrApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aab3788d-5caf-43c1-a9a1-78999dc286be" name="Default Changelist" comment="" />
+      <created>1587477450980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587477450980</updated>
+      <workItem from="1587477457261" duration="1384000" />
+      <workItem from="1587478898392" duration="12601000" />
+      <workItem from="1587536569104" duration="5839000" />
+      <workItem from="1587902857785" duration="300000" />
+      <workItem from="1587903218261" duration="1760000" />
+      <workItem from="1587905038441" duration="1763000" />
+      <workItem from="1587906890190" duration="1796000" />
+      <workItem from="1587908744175" duration="1398000" />
+      <workItem from="1587910793900" duration="1619000" />
+      <workItem from="1587913291380" duration="69000" />
+      <workItem from="1587914487463" duration="329000" />
+      <workItem from="1587914995584" duration="24000" />
+      <workItem from="1587945804651" duration="1128000" />
+      <workItem from="1587947762903" duration="821000" />
+      <workItem from="1587948740646" duration="1774000" />
+      <workItem from="1587950564953" duration="1774000" />
+      <workItem from="1587952381235" duration="1260000" />
+      <workItem from="1587953703515" duration="739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="2" key="#Inspections" timestamp="1587950933883">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1587950933883" />
+    <state x="233" y="2" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587478559229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1587478559229" />
+    <state x="401" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1587613021294">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="401" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1587613021294" />
+    <state x="371" y="121" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587612105129">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="121" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1587612105129" />
+    <state x="553" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587905363518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="553" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1587905363518" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1587947218297">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587947218297" />
+    <state width="1237" height="309" key="GridCell.Tab.0.bottom" timestamp="1587954205203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587954205203" />
+    <state width="1237" height="309" key="GridCell.Tab.0.center" timestamp="1587954205203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587954205203" />
+    <state width="1237" height="309" key="GridCell.Tab.0.left" timestamp="1587954205202">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587954205202" />
+    <state width="1237" height="309" key="GridCell.Tab.0.right" timestamp="1587954205203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587954205203" />
+    <state width="1237" height="309" key="GridCell.Tab.1.bottom" timestamp="1587954205204">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587954205204" />
+    <state width="1237" height="309" key="GridCell.Tab.1.center" timestamp="1587954205204">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587954205204" />
+    <state width="1237" height="309" key="GridCell.Tab.1.left" timestamp="1587954205203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587954205203" />
+    <state width="1237" height="309" key="GridCell.Tab.1.right" timestamp="1587954205204">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="309" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587954205204" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1587478602472">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1587478602472" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1587479046390">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587479046390" />
+    <state x="188" y="115" key="com.intellij.ide.util.TipDialog" timestamp="1587953704622">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="188" y="115" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587953704622" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/vhrapi/VhrApiApplication.java</url>
+          <line>12</line>
+          <properties class="com.example.vhrapi.VhrApiApplication" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/vhrapi/VhrApiApplication.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
