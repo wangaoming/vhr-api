@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab3788d-5caf-43c1-a9a1-78999dc286be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/basic/joblevel/JobLevelController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/basic/position/PositionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/system/basic/joblevel/JoblevelMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/system/basic/position/PositionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/service/system/basic/joblevel/JobLevelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/service/system/basic/position/PositionService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/system/basic/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/system/basic/position/PositionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/system/joblevel/JobLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/system/basic/joblevel/JobLevelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/mapper/system/basic/PositionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/mapper/system/basic/position/PositionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/mapper/system/joblevel/JoblevelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/mapper/system/basic/joblevel/JoblevelMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/RespBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/system/basic/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/system/basic/position/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/system/basic/PositionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/system/basic/position/PositionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/system/joblevel/JobLevelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/system/basic/joblevel/JobLevelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper/JObLevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper/JObLevelMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper/PositionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper/PositionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/joblevel/JobLevelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/JoblevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/JoblevelMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/PositionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/PositionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/system/basic/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/system/basic/position/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/system/joblevel/Joblevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/system/basic/joblevel/Joblevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/service/system/joblevel/JobLevelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,17 +168,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - vhr@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - vhr@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7a6f947" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -263,7 +232,7 @@
       <workItem from="1588169696341" duration="1769000" />
       <workItem from="1588171506208" duration="1776000" />
       <workItem from="1588173340578" duration="1881000" />
-      <workItem from="1588175314034" duration="582000" />
+      <workItem from="1588175314034" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="职称管理api">
       <created>1588156234462</created>
@@ -286,7 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588175749206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="职称管理">
+      <created>1588175943202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588175943202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="职位&#10;管理">
+      <created>1588175995256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588175995256</updated>
+    </task>
+    <task id="LOCAL-00006" summary="状态码">
+      <created>1588176036027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588176036027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +285,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="职称管理api" />
     <MESSAGE value="权限" />
-    <option name="LAST_COMMIT_MESSAGE" value="权限" />
+    <MESSAGE value="职称管理" />
+    <MESSAGE value="职位&#10;管理" />
+    <MESSAGE value="状态码" />
+    <option name="LAST_COMMIT_MESSAGE" value="状态码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Inspections" timestamp="1588158431875">
@@ -322,10 +315,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="553" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1587967914221" />
-    <state x="0" y="0" width="1280" height="612" key="CommitChangelistDialog2" timestamp="1588175992829">
+    <state x="0" y="0" width="1280" height="612" key="CommitChangelistDialog2" timestamp="1588176034747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" width="1280" height="612" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588175992829" />
+    <state x="0" y="0" width="1280" height="612" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588176034747" />
     <state x="121" y="56" key="DiffContextDialog" timestamp="1588175488453">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -334,22 +327,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588168222243" />
-    <state width="845" height="71" key="GridCell.Tab.0.bottom" timestamp="1588175524575">
+    <state width="845" height="71" key="GridCell.Tab.0.bottom" timestamp="1588176153701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="71" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588175524575" />
-    <state width="845" height="71" key="GridCell.Tab.0.center" timestamp="1588175524575">
+    <state width="845" height="71" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588176153701" />
+    <state width="845" height="71" key="GridCell.Tab.0.center" timestamp="1588176153701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="71" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588175524575" />
-    <state width="845" height="71" key="GridCell.Tab.0.left" timestamp="1588175524575">
+    <state width="845" height="71" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588176153701" />
+    <state width="845" height="71" key="GridCell.Tab.0.left" timestamp="1588176153701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="71" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588175524575" />
-    <state width="845" height="71" key="GridCell.Tab.0.right" timestamp="1588175524575">
+    <state width="845" height="71" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588176153701" />
+    <state width="845" height="71" key="GridCell.Tab.0.right" timestamp="1588176153701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="71" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588175524575" />
+    <state width="845" height="71" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588176153701" />
     <state width="1237" height="201" key="GridCell.Tab.1.bottom" timestamp="1588172669498">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
