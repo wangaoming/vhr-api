@@ -1,7 +1,7 @@
-package com.example.vhrapi.service.system.joblevel;
+package com.example.vhrapi.service.system.basic.joblevel;
 
-import com.example.vhrapi.mapper.system.joblevel.JoblevelMapper;
-import com.example.vhrapi.model.system.joblevel.Joblevel;
+import com.example.vhrapi.mapper.system.basic.joblevel.JoblevelMapper;
+import com.example.vhrapi.model.system.basic.joblevel.Joblevel;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

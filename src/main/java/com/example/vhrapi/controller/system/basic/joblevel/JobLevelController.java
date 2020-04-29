@@ -1,8 +1,8 @@
-package com.example.vhrapi.controller.system.joblevel;
+package com.example.vhrapi.controller.system.basic.joblevel;
 
 import com.example.vhrapi.model.RespBean;
-import com.example.vhrapi.model.system.joblevel.Joblevel;
-import com.example.vhrapi.service.system.joblevel.JobLevelService;
+import com.example.vhrapi.model.system.basic.joblevel.Joblevel;
+import com.example.vhrapi.service.system.basic.joblevel.JobLevelService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

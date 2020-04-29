@@ -1,6 +1,6 @@
-package com.example.vhrapi.mapper.system.joblevel;
+package com.example.vhrapi.mapper.system.basic.joblevel;
 
-import com.example.vhrapi.model.system.joblevel.Joblevel;
+import com.example.vhrapi.model.system.basic.joblevel.Joblevel;
 
 import java.util.List;
 
