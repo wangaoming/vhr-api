@@ -11,7 +11,7 @@ import java.util.List;
 //职位管理--Controller--操作数据
 @RestController
 @RequestMapping("/system/basic/pos")
-@Api(value = "PositionController", tags = {"基础数据管理"})
+@Api(value = "PositionController", tags = {"职位数据管理"})
 public class PositionController {
     @Autowired
     PositionService positionService;

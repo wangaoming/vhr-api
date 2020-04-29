@@ -90,6 +90,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>2.9.2</version>
+    </dependency>
         <!-- 解决进入swagger页面的类型转换错误，排除2.9.2中的引用，增加1.5.24版本-->
         <dependency>
             <groupId>io.swagger</groupId>
@@ -101,11 +106,7 @@
             <artifactId>swagger-models</artifactId>
             <version>1.5.24</version>
         </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
