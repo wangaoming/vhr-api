@@ -1,6 +1,9 @@
 package generator;
 
 import com.example.vhrapi.model.Menu;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 public interface MenuMapper {
     int deleteByPrimaryKey(Integer id);
@@ -14,4 +17,10 @@ public interface MenuMapper {
     int updateByPrimaryKeySelective(Menu record);
 
     int updateByPrimaryKey(Menu record);
+    List<Menu> getMenusByHrId(Integer id);
+
+    List<Menu> getAllMenusWithRole();
+
+    @Select("select mid from menu_role where rid=#{id}")
+    List<Integer> getMidsByRid(Integer id);
 }

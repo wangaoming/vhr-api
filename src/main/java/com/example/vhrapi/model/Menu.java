@@ -1,5 +1,6 @@
 package com.example.vhrapi.model;
 
+import com.example.vhrapi.model.system.basic.permission.Role;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -28,6 +29,6 @@ public class Menu implements Serializable {
     private Boolean enabled;
 
     private Meta meta;
-
-    private List<Menu> children;
+private List<Menu>children;
+    private List<Role> roles;
 }

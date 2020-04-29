@@ -1,4 +1,4 @@
-package com.example.vhrapi.model.system.joblevel;
+package com.example.vhrapi.model.system.basic.joblevel;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;
