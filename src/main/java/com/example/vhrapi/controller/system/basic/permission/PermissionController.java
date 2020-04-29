@@ -28,6 +28,7 @@ public class PermissionController {
         return RespBean.ok("", roles);
     }
 
+
     @GetMapping("/menus")
     @ApiOperation(value = "获取所有三级菜单", notes = "所有三级菜单的列表")
     public RespBean getAllMenus() {
