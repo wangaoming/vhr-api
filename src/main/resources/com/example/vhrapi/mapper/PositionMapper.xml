@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.vhrapi.mapper.system.basic.PositionMapper">
-  <resultMap id="BaseResultMap" type="com.example.vhrapi.model.system.basic.Position">
+<mapper namespace="com.example.vhrapi.mapper.system.basic.position.PositionMapper">
+  <resultMap id="BaseResultMap" type="com.example.vhrapi.model.system.basic.position.Position">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="createDate" jdbcType="TIMESTAMP" property="createDate" />
@@ -26,13 +26,13 @@
       #{id}
     </foreach>
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.example.vhrapi.model.system.basic.Position" useGeneratedKeys="true">
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.example.vhrapi.model.system.basic.position.Position" useGeneratedKeys="true">
     insert into position (`name`, createDate, enabled
       )
     values (#{name,jdbcType=VARCHAR}, #{createDate,jdbcType=TIMESTAMP}, #{enabled,jdbcType=BIT}
       )
   </insert>
-  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.example.vhrapi.model.system.basic.Position" useGeneratedKeys="true">
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.example.vhrapi.model.system.basic.position.Position" useGeneratedKeys="true">
     insert into position
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="name != null">
@@ -57,7 +57,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.example.vhrapi.model.system.basic.Position">
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.vhrapi.model.system.basic.position.Position">
     update position
     <set>
       <if test="name != null">
@@ -72,7 +72,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.example.vhrapi.model.system.basic.Position">
+  <update id="updateByPrimaryKey" parameterType="com.example.vhrapi.model.system.basic.position.Position">
     update position
     set `name` = #{name,jdbcType=VARCHAR},
       createDate = #{createDate,jdbcType=TIMESTAMP},

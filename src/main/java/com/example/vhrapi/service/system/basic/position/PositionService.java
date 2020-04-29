@@ -1,7 +1,7 @@
-package com.example.vhrapi.service.system.basic;
+package com.example.vhrapi.service.system.basic.position;
 
-import com.example.vhrapi.mapper.system.basic.PositionMapper;
-import com.example.vhrapi.model.system.basic.Position;
+import com.example.vhrapi.mapper.system.basic.position.PositionMapper;
+import com.example.vhrapi.model.system.basic.position.Position;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

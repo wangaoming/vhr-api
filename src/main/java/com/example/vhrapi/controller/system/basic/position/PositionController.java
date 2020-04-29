@@ -1,8 +1,8 @@
-package com.example.vhrapi.controller.system.basic;
+package com.example.vhrapi.controller.system.basic.position;
 
-import com.example.vhrapi.model.system.basic.Position;
 import com.example.vhrapi.model.RespBean;
-import com.example.vhrapi.service.system.basic.PositionService;
+import com.example.vhrapi.model.system.basic.position.Position;
+import com.example.vhrapi.service.system.basic.position.PositionService;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

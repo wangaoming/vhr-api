@@ -1,4 +1,4 @@
-package com.example.vhrapi.model.system.basic;
+package com.example.vhrapi.model.system.basic.position;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;

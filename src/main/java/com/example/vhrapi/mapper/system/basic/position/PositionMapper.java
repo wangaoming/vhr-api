@@ -1,6 +1,6 @@
-package com.example.vhrapi.mapper.system.basic;
+package com.example.vhrapi.mapper.system.basic.position;
 
-import com.example.vhrapi.model.system.basic.Position;
+import com.example.vhrapi.model.system.basic.position.Position;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -17,6 +17,8 @@ public interface PositionMapper {
     int updateByPrimaryKeySelective(Position record);
 
     int updateByPrimaryKey(Position record);
+
+
     @Select("select * from position")
     List<Position> selectAllPosition();
     Integer deleteByIds(Integer[] ids);
