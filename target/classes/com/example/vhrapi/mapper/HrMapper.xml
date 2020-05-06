@@ -22,7 +22,23 @@
     from hr
     where id = #{id,jdbcType=INTEGER}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+  <resultMap id="HrWithRoles" type="com.example.vhrapi.model.Hr" extends="BaseResultMap">
+    <collection property="roles" ofType="com.example.vhrapi.model.system.basic.permission.Role">
+      <id column="rid" property="id"/>
+      <result column="rname" property="name"/>
+      <result column="rnameZh" property="namezh"/>
+    </collection>
+  </resultMap>
+    <select id="getAllHrs"  resultMap="HrWithRoles">
+      select hr.id, hr.name, hr.phone, hr.telephone, hr.address, hr.enabled, hr.username, hr.userface,
+      hr.remark,r.`id` as rid,r.`name` as rname,r.`nameZh` as rnameZh from hr left join hr_role hrr on
+      hr.`id`=hrr.`hrid` left join role r on hrr.`rid`=r.`id` where hr.`id`!=#{hrid}
+      <if test="keywords!=null">
+        and hr.name like concat('%',#{keywords},'%')
+      </if>
+      order by hr.id
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from hr
     where id = #{id,jdbcType=INTEGER}
   </delete>

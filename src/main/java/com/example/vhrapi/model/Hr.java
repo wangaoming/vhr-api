@@ -1,10 +1,12 @@
 package com.example.vhrapi.model;
 
+import com.example.vhrapi.model.system.basic.permission.Role;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * hr
@@ -52,7 +54,7 @@ public class Hr implements UserDetails {
     private String userface;
 
     private String remark;
-
+    private List<Role> roles;
     private static final long serialVersionUID = 1L;
 
     @Override
@@ -89,4 +91,5 @@ public class Hr implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+
 }

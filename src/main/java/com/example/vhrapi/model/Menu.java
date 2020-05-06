@@ -30,5 +30,5 @@ public class Menu implements Serializable {
 
     private Meta meta;
 private List<Menu>children;
-    private List<Role> roles;
+    private List<Role> role;
 }
