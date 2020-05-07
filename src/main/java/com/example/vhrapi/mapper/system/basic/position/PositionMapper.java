@@ -22,4 +22,5 @@ public interface PositionMapper {
     @Select("select * from position")
     List<Position> selectAllPosition();
     Integer deleteByIds(Integer[] ids);
+    Integer batchInsert(List<Position> positions);
 }

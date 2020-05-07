@@ -30,6 +30,11 @@ public PageInfo<Position> getPositionByPage(Integer page, Integer size) {
     List<Position> positions = positionMapper.selectAllPosition();
     return new PageInfo<>(positions, size);
 }
+//导数据
+public int addPositions(List<Position> positions) {
+    return positionMapper.batchInsert(positions);
+}
+
     public Integer updatePosition(Position position) {
         return positionMapper.updateByPrimaryKeySelective(position);
     }
