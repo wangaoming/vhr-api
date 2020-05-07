@@ -2,6 +2,8 @@ package com.example.vhrapi.service.system.basic.position;
 
 import com.example.vhrapi.mapper.system.basic.position.PositionMapper;
 import com.example.vhrapi.model.system.basic.position.Position;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -22,7 +24,12 @@ public class PositionService {
         position.setCreateDate(new Date());
         return positionMapper.insertSelective(position);
     }
-
+//分页
+public PageInfo<Position> getPositionByPage(Integer page, Integer size) {
+    PageHelper.startPage(page, size);
+    List<Position> positions = positionMapper.selectAllPosition();
+    return new PageInfo<>(positions, size);
+}
     public Integer updatePosition(Position position) {
         return positionMapper.updateByPrimaryKeySelective(position);
     }

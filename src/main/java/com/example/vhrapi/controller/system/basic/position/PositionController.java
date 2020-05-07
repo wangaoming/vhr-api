@@ -3,11 +3,10 @@ package com.example.vhrapi.controller.system.basic.position;
 import com.example.vhrapi.model.RespBean;
 import com.example.vhrapi.model.system.basic.position.Position;
 import com.example.vhrapi.service.system.basic.position.PositionService;
+import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 //职位管理--Controller--操作数据
 @RestController
 @RequestMapping("/system/basic/pos")
@@ -16,13 +15,20 @@ public class PositionController {
     @Autowired
     PositionService positionService;
 
+//    @GetMapping("/")
+//    @ApiOperation(value = "获取所有职位", notes = "所有职位信息列表", produces = "application/json")
+//    public RespBean getAllPosition() {
+//        List<Position> positions = positionService.getAllPosition();
+//        return RespBean.ok("获取成功", positions);
+//    }
+//分页
     @GetMapping("/")
-    @ApiOperation(value = "获取所有职位", notes = "所有职位信息列表", produces = "application/json")
-    public RespBean getAllPosition() {
-        List<Position> positions = positionService.getAllPosition();
-        return RespBean.ok("获取成功", positions);
+    @ApiOperation(value = "分页获取职位", notes = "职位信息列表", produces = "application/json")
+    public RespBean getPositionByPage(@RequestParam(defaultValue = "1") Integer page,
+                                      @RequestParam(defaultValue = "5") Integer size) {
+        PageInfo<Position> positions = positionService.getPositionByPage(page, size);
+        return RespBean.ok("", positions);
     }
-
     @PostMapping("/")
     @ApiOperation(value = "新增职位", notes = "根据传入的职位添加一个新职位")
     @ApiImplicitParam(name = "position", value = "position对象", required = true)
