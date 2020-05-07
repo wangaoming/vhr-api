@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.niit</groupId>
-    <artifactId>vhr</artifactId>
+    <artifactId>vhr-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>vhr</name>
     <description>Demo project for Spring Boot</description>
@@ -74,7 +74,7 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-<!--        swagger2-->
+        <!--        swagger2-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -91,10 +91,10 @@
             </exclusions>
         </dependency>
         <dependency>
-        <groupId>io.springfox</groupId>
-        <artifactId>springfox-swagger-ui</artifactId>
-        <version>2.9.2</version>
-    </dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
         <!-- 解决进入swagger页面的类型转换错误，排除2.9.2中的引用，增加1.5.24版本-->
         <dependency>
             <groupId>io.swagger</groupId>
@@ -111,6 +111,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
         </dependency>
+        <!-- 验证码 -->
+                <dependency>
+                    <groupId>com.github.penggle</groupId>
+                    <artifactId>kaptcha</artifactId>
+                    <version>2.3.2</version>
+                </dependency>
     </dependencies>
 
     <build>

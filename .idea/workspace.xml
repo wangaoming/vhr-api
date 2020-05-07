@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab3788d-5caf-43c1-a9a1-78999dc286be" name="Default Changelist" comment="登录">
-      <change afterPath="$PROJECT_DIR$/logs/mybatis_error-2020-04-30.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mybatis_log-2020-04-30.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/system/hr/HrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/mapper/system/hr/HrRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/system/hr/HrRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/utils/HrUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper/HrRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/hr/HrController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/HrRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/system/hr/HrRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/system/hr/HrRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/utils/HrUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/config/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/controller/verfycode/VerifyCodeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/mapper/HrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/mapper/HrMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/Hr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/Hr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/model/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/HrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/HrService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper/HrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/vhrapi/mapper/HrMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhrapi/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/config/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/basic/permission/PermissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/basic/permission/PermissionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/HrMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/HrMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/HrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/mapper/HrMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/Hr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/Hr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/service/HrService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/service/HrService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/hr/HrController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/controller/system/hr/HrController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/system/hr/HrRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhrapi/model/system/hr/HrRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr-api.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +90,11 @@
         <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1aqyWYca1VXdLD9KnpqSphHt58k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -117,18 +114,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/vhrapi/service/system/basic" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/vhr-end-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.vhrapi.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\resources" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\mapper\system\joblevel" />
       <recent name="D:\dev\vue_dev\vhr-api\src\main\resources\com\example\vhrapi\mapper" />
-      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\service\system\joblevel" />
-      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\controller\system\joblevel" />
-      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\model" />
-      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\mapper" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.vhrapi.controller.system.joblevel" />
@@ -137,11 +136,12 @@
       <recent name="com.example.vhrapi.model" />
       <recent name="com.example.vhrapi.mapper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\vue_dev\vhr-api\src\main\resources" />
-      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\mapper\system\joblevel" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\vue_dev\vhr-api\src\main\resources\com\example\vhrapi\mapper" />
-      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\service\system\joblevel" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\controller\system\joblevel" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\model" />
+      <recent name="D:\dev\vue_dev\vhr-api\src\main\java\com\example\vhrapi\mapper" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -262,7 +262,25 @@
       <workItem from="1588643581543" duration="987000" />
       <workItem from="1588645395890" duration="606000" />
       <workItem from="1588647202653" duration="1028000" />
-      <workItem from="1588776085314" duration="220000" />
+      <workItem from="1588776085314" duration="1462000" />
+      <workItem from="1588777911303" duration="1419000" />
+      <workItem from="1588779377924" duration="1769000" />
+      <workItem from="1588781200762" duration="1773000" />
+      <workItem from="1588783016407" duration="1768000" />
+      <workItem from="1588784892425" duration="1712000" />
+      <workItem from="1588786660190" duration="1772000" />
+      <workItem from="1588788506465" duration="1777000" />
+      <workItem from="1588790325736" duration="1773000" />
+      <workItem from="1588792136168" duration="348000" />
+      <workItem from="1588794710167" duration="1045000" />
+      <workItem from="1588795804964" duration="452000" />
+      <workItem from="1588808916765" duration="1753000" />
+      <workItem from="1588810732955" duration="1773000" />
+      <workItem from="1588812703099" duration="975000" />
+      <workItem from="1588815285604" duration="1678000" />
+      <workItem from="1588817005364" duration="1769000" />
+      <workItem from="1588818818506" duration="630000" />
+      <workItem from="1588840508744" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="职称管理api">
       <created>1588156234462</created>
@@ -313,11 +331,31 @@
       <option name="project" value="LOCAL" />
       <updated>1588176194726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="操作员管理">
+      <created>1588776378363</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588776378363</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="职称管理api" />
@@ -326,13 +364,14 @@
     <MESSAGE value="职位&#10;管理" />
     <MESSAGE value="状态码" />
     <MESSAGE value="登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录" />
+    <MESSAGE value="操作员管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="操作员管理" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="2" key="#Inspections" timestamp="1588158431875">
+    <state x="233" y="2" key="#Inspections" timestamp="1588810961525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="2" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1588158431875" />
+    <state x="233" y="2" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1588810961525" />
     <state x="233" y="2" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587478559229">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -353,74 +392,94 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="553" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1587967914221" />
-    <state x="-339" y="44" width="1280" height="634" key="CommitChangelistDialog2" timestamp="1588776291426">
+    <state x="-39" y="0" width="1280" height="634" key="CommitChangelistDialog2" timestamp="1588776374644">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="-339" y="44" width="1280" height="634" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588776291426" />
-    <state x="121" y="56" key="DiffContextDialog" timestamp="1588776269917">
+    <state x="-39" y="0" width="1280" height="634" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588776374644" />
+    <state x="121" y="56" key="DiffContextDialog" timestamp="1588776352060">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="56" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1588776269917" />
-    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1588643963662">
+    <state x="121" y="56" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1588776352060" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1588819351517">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588643963662" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1588180612393">
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588819351517" />
+    <state width="1237" height="61" key="GridCell.Tab.0.bottom" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1588180612393">
+    <state width="1237" height="61" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="61" key="GridCell.Tab.0.center" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1588180612393">
+    <state width="1237" height="61" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="61" key="GridCell.Tab.0.left" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1588180612393">
+    <state width="1237" height="61" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="61" key="GridCell.Tab.0.right" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
-    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1588180612393">
+    <state width="1237" height="61" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="61" key="GridCell.Tab.1.bottom" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
-    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1588180612393">
+    <state width="1237" height="61" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="61" key="GridCell.Tab.1.center" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
-    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1588180612393">
+    <state width="1237" height="61" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="61" key="GridCell.Tab.1.left" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
-    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1588180612393">
+    <state width="1237" height="61" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="61" key="GridCell.Tab.1.right" timestamp="1588841006447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588180612393" />
+    <state width="1237" height="61" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588841006447" />
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1588792487834">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588792487834" />
+    <state width="1237" height="204" key="GridCell.Tab.2.center" timestamp="1588792487833">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1588792487833" />
+    <state width="1237" height="204" key="GridCell.Tab.2.left" timestamp="1588792487833">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1588792487833" />
+    <state width="1237" height="204" key="GridCell.Tab.2.right" timestamp="1588792487833">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1588792487833" />
     <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1587478602472">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1587478602472" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1587479046390">
+    <state x="54" y="0" key="SettingsEditor" timestamp="1588789457742">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587479046390" />
+    <state x="54" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588789457742" />
     <state x="438" y="121" key="chooseDestDirectoryDialog" timestamp="1588157964764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="121" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1588157964764" />
-    <state x="107" y="105" key="com.intellij.ide.util.TipDialog" timestamp="1588776086229">
+    <state x="107" y="105" key="com.intellij.ide.util.TipDialog" timestamp="1588817040870">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="107" y="105" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588776086229" />
-    <state x="28" y="48" key="new project wizard" timestamp="1588643968840">
+    <state x="107" y="105" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588817040870" />
+    <state x="154" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588791360485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="48" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1588643968840" />
-    <state x="507" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1588163707583">
+    <state x="154" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1588791360485" />
+    <state x="2" y="32" width="1224" height="613" key="new project wizard" timestamp="1588812199428">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="507" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588163707583" />
+    <state x="2" y="32" width="1224" height="613" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1588812199428" />
+    <state x="507" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1588811879161">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="507" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588811879161" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

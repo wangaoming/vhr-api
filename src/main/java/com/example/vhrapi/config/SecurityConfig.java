@@ -27,6 +27,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 
+/**
+ * @author ASUS
+ */
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
@@ -42,10 +45,73 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(hrService);
     }
+//    @Override
+//    public void configure(WebSecurity web) throws Exception {
+//        web.ignoring()
+//                .antMatchers("/swagger-ui.html")
+//                .antMatchers("/v2/*")
+//                .antMatchers("/swagger-resources/**")
+//                .antMatchers("/webjars/**")
+//                .antMatchers("/index.html")
+//                .antMatchers("/verifyCode")
+//                .mvcMatchers("/login");
+//    }
+    // 登录验证
+//    @Bean
+//    LoginFilter login() throws Exception {
+//        LoginFilter loginFilter = new LoginFilter();
+//        loginFilter.setAuthenticationSuccessHandler(new AuthenticationSuccessHandler() {
+//            @Override
+//            public void onAuthenticationSuccess(HttpServletRequest request,
+//                                                HttpServletResponse response,
+//                                                Authentication authentication)
+//                    throws IOException, ServletException {
+//                response.setContentType("application/json;charset=utf-8");
+//                PrintWriter out = response.getWriter();
+//                Hr hr = (Hr) authentication.getPrincipal();
+//                hr.setPassword(null);
+//                RespBean ok = RespBean.ok("登录成功", hr);
+//                out.write(new ObjectMapper().writeValueAsString(ok));
+//                out.flush();
+//                out.close();
+//            }
+//        });
+//        loginFilter.setAuthenticationFailureHandler(new AuthenticationFailureHandler() {
+//                        @Override
+//            public void onAuthenticationFailure(HttpServletRequest request,
+//                                                HttpServletResponse response,
+//                                                AuthenticationException exception)
+//                    throws IOException, ServletException {
+//                response.setContentType("application/json;charset=utf-8");
+//                PrintWriter out = response.getWriter();
+//                RespBean respBean = RespBean.error("登录失败");
+//                if (exception instanceof LockedException) {
+//                    respBean.setMsg("账户被锁定，请联系管理员");
+//                } else if (exception instanceof CredentialsExpiredException) {
+//                    respBean.setMsg("密码过期，请联系管理员");
+//                } else if (exception instanceof AccountExpiredException) {
+//                    respBean.setMsg("账户过期，请联系管理员");
+//                } else if (exception instanceof DisabledException) {
+//                    respBean.setMsg("账户被禁用，请联系管理员");
+//                } else if (exception instanceof BadCredentialsException) {
+//                    respBean.setMsg("用户名或密码输入错误，请重新登录");
+//                } else if (exception != null && !StringUtils.isEmpty(exception.getMessage())) {
+//                    respBean.setMsg(exception.getMessage());
+//                }
+//                out.write(new ObjectMapper().writeValueAsString(respBean));
+//                out.flush();
+//                out.close();
+//            }
+//        });
+//        loginFilter.setAuthenticationManager(authenticationManagerBean());
+//        loginFilter.setFilterProcessesUrl("/doLogin");
+//        return loginFilter;
+//    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests()
+//        http.addFilterAt(login(), UsernamePasswordAuthenticationFilter.class)
+                http.authorizeRequests()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
